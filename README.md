@@ -58,4 +58,4 @@ Timer2 is is used as the PWM module timebase. When using Timer2 as the PWM timeb
 
 
 ## Summary
-The 'pic16f15244-pwm-led-blink' code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how to toggle LED0 using the PWM module. LED0 will toggle between 'ON' and 'OFF' states approximately 7 times per second. The PWm output is configured to toggle at a 50% duty cycle, which means that during each PWM period, the output toggles equally between its active and inactive states.
+The 'pic16f15244-pwm-led-blink' code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how to toggle LED0 using the PWM module. LED0 will toggle between 'ON' and 'OFF' states approximately 7 times per second. The PWM output is configured to toggle at a 50% duty cycle, which means that during each PWM period, the output toggles equally between its active and inactive states.
