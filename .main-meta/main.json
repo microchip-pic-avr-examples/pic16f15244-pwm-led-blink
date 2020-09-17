@@ -43,16 +43,17 @@
                "Peripherals", "PWM"
             ],
 			[
-               "Peripherals", "Timer2"
+               "Peripherals", "TMR2"
             ]
         ],
         "peripherals": [
-            "PWM", "Timer2"
+            "PWM", "TMR2"
         ],
         "keywords": [
-            "MCC",
-            "PWM",
-			"Timer2"
+            "Sensors",
+            "Lighting",
+			"light",
+			"Getting Started"
         ],
 		"additionalData": {
 			"longDescription": {
