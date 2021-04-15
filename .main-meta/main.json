@@ -4,20 +4,20 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f15244-pwm-led-blink",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Blink an LED using PWM with PIC16F15244",
         "projectName": "pic16f15244-pwm-led-blink",
         "shortDescription": "The 'pic16f15244-pwm-led-blink' code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how to toggle LED0 using the PWM module.",
         "ide": {
-            "name": "MPLABX",
+            "name": "MPLAB X",
             "semverRange": ">=5.40.0"
         },
         "compiler": [
-			{
-				"name": "XC8",
-				"semverRange": "^2.20.0"
-			}
-		],
+            {
+                "name": "XC8",
+                "semverRange": "^2.20.0"
+            }
+        ],
         "dfp": {
             "name": "PIC16F-DEV_DFP",
             "semverRange": "^0.1.25"
@@ -40,31 +40,34 @@
         "subcategories": [
             "MCC",
             [
-               "Peripherals", "PWM"
+                "Peripherals",
+                "PWM"
             ],
-			[
-               "Peripherals", "TMR2"
+            [
+                "Peripherals",
+                "TMR2"
             ]
         ],
         "peripherals": [
-            "PWM", "TMR2"
+            "PWM",
+            "TMR2"
         ],
         "keywords": [
             "Sensors",
             "Lighting",
-			"light",
-			"Getting Started"
+            "light",
+            "Getting Started"
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./readme.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./readme.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
